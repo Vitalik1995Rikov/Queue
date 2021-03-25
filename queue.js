@@ -14,3 +14,6 @@ class Queue {
         return this.storage.length // получить количество элементов
     }
 }
+
+let log = console.log;
+log.apply(console, arguments); // чтоб собирал все, что выводится
